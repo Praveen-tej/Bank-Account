@@ -1,0 +1,563 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.leftContainer{
+    position: absolute;
+    width: 70%;
+}
+body{
+    background-color:rgb(242, 244, 246);
+}
+
+.homeContainer1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header1 {
+    position: absolute;
+    margin-left: 1080px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: Mixed;
+    font-size: 15px;
+    line-height: 22px;
+
+}
+
+.header2 {
+    position: absolute;
+    margin-left: 1280px;
+    margin-top: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: Mixed;
+    font-size: 15px;
+    color: dodgerblue;
+}
+
+.heading1 {
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 270px;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading2 {
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 315px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #868;
+}
+
+.image2 {
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 370px;
+    width: 28%;
+}
+
+.image3 {
+    position: absolute;
+    margin-left: 775px;
+    margin-top: 400px;
+}
+
+.userImage {
+    position: absolute;
+    margin-left: 790px;
+    margin-top: 414px;
+}
+
+.subHeading1 {
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 390px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subContent1 {
+    position: absolute;
+    margin-left: 838px;
+    margin-top: 418px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.arrowImage {
+    position: absolute;
+    margin-left: 1090px;
+    margin-top: 418px;
+}
+
+.rectangleImage2 {
+    position: absolute;
+    width: 28%;
+    margin-left: 750px;
+    margin-top: 500px;
+}
+
+.polygonImage {
+    position: absolute;
+    margin-left: 778px;
+    margin-top: 530px;
+}
+
+.briefcaseImage {
+    position: absolute;
+    margin-left: 793px;
+    margin-top: 545px;
+}
+
+.subHeading2 {
+    position: absolute;
+    margin-left: 848px;
+    margin-top: 520px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subContent2 {
+    position: absolute;
+    margin-left: 848px;
+    margin-top: 545px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button1{
+    margin-top: 640px;
+    margin-left: 870px;
+    padding: 12px 50px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button1:hover{
+    background-color: dodgerblue;
+    color: aliceblue;
+    border: none;
+}
+
+.homeContainer2{
+    width: 100%;
+}
+
+.leftContainer2{
+    margin-top: -350px;
+}
+
+
+.frame2{
+    position:absolute;
+    display: flex;
+    margin-top: 345px;
+}
+
+.button2{
+    position: absolute;
+    margin-left: 740px;
+    margin-top: 470px;
+    padding: 5px 8px;
+    font-size: 16px;
+    border: none;
+    color: #868;
+}
+
+.button2:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.heading3{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 540px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading4{
+    margin-left: 800px;
+    position: absolute;
+    margin-top: 580px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #868;
+}
+
+.labelName1{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 700px;
+    color: #69567f;
+}
+
+.inputName1{
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 800px;
+    font-size: 15px;
+    padding: 13px 40px;
+    border-radius: 4px;
+    border-color: dodgerblue;
+}
+
+.labelName2{
+    position: absolute;
+    margin-left:800px;
+    margin-top: 810px;
+    color: #69567f;
+}
+
+.inputName2{
+    position: absolute;
+    margin-top: 840px;
+    margin-left: 800px;
+    font-size: 15px;
+    padding: 13px 40px;
+}
+
+.labelName3{
+    position: absolute;
+    margin-left:800px;
+    margin-top: 920px;
+    color: #69567f;
+}
+
+.inputName3{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 950px;
+    padding: 13px 40px;
+    font-size: 15px;
+}
+
+.acceptImage{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 1030px;
+}
+
+.condition{
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 1030px;
+    color: #69567f;
+}
+
+.button3{
+    margin-left: 800px;
+    margin-top: 1090px;
+    padding: 15px 85px;
+    font-size: 15px;
+}
+
+.button3:hover{
+    color: aliceblue;
+    background-color: dodgerblue;
+    border: none;
+}
+
+.option{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 940px;
+}
+
+.rectangleImage3{
+    width: 25%;
+    margin-top: 90px;
+    margin-left: 786px;
+}
+
+.googleImage{
+    position: absolute;
+    margin-left: -310px;
+    margin-top: 110px;
+}
+
+.googleOption{
+    margin-top: -50px;
+    margin-left: 880px;
+    font-size: 18px;
+}
+
+.homeContainer3{
+    width: 100%;
+}
+
+.leftContainer3{
+    margin-top: -100px;
+}
+
+.frame3{
+    display: flex;
+    margin-top:105px ;
+}
+
+.rightContainer3{
+    display: flex;
+}
+
+.button4{
+    position: absolute;
+    margin-left: 760px;
+    margin-top: -920px;
+    border: none;
+    color: #69567f;
+    font-size: 16px;
+    padding: 3px 5px;
+}
+
+.button4:hover{
+    color: white;
+    background-color:dodgerblue;
+}
+
+.heading5{
+   position: absolute;
+   margin-left: 820px;
+   margin-top:-850px;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading6{
+    margin-left: 820px;
+    margin-top: -810px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #868;
+}
+
+.form2{
+    display: flex;
+}
+
+
+.phoneNumber{
+    position: absolute;
+    margin-left: -290px;
+    margin-top: -740px;
+    color: #69567f;
+    font-size: 17px;
+}
+
+.inputNumber{
+    position: absolute;
+    margin-top: -710px ;
+    margin-left: -290px;
+    padding: 13px 40px;
+    font-size: 15px;
+}
+
+.address{
+    position: absolute;
+    margin-left: -285px;
+    margin-top: -610px;
+    color: #69567f;
+    font-size: 17px;
+}
+
+.inputAddress{
+    position: absolute;
+    margin-left:-285px;
+    margin-top: -575px;
+    padding: 13px 40px;
+    font-size: 15px;
+}
+
+.country{
+    position:absolute;
+    margin-left: -279px;
+    margin-top:-470px;
+    color: #69567f;
+    font-size: 17px;
+}
+
+.inputCountry{
+    position: absolute;
+    margin-left: -280px;
+    margin-top:-430px;
+    padding: 13px 40px;
+    font-size: 15px;
+}
+
+.button5{
+    position: absolute;
+    margin-left: -275px;
+    margin-top: -300px;
+    padding: 13px 70px;
+    font-size: 17px;
+}
+
+.button5:hover{
+    color: aliceblue;
+    background-color: dodgerblue;
+    border: none;
+}
+
+.safety1{
+    position: absolute;
+    margin-left: -245px;
+    margin-top: -200px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #69567f;
+}
+
+.lockImage1{
+    width: 2%;
+    position: absolute;
+    margin-left: -286px;
+    margin-top: -203px;
+}
+
+.frame4{
+    display: flex;
+    margin-top: 10px;
+}
+.leftContainer4{
+    display: flex;
+}
+
+.button6{position: absolute;
+    margin-left: 790px;
+    margin-top: -900px;
+    padding: 3px 5px;
+    border: none;
+    font-size: 17px;
+    color: #69567f;
+}
+
+.button6:hover{
+    color: aqua;
+    background-color: dodgerblue;
+}
+
+.heading7{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -830px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading8{
+    position: absolute;
+    margin-left:850px ;
+    margin-top:-790px ;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #868;
+}
+
+.verification{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -700px;
+    color: #69567f;
+    font-size: 18px;
+}
+
+.verifyNumber{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -640px;
+    padding: 13px 40px;
+    font-size: 15px;
+}
+
+.verificationImage{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -626px;
+}
+
+.button7{
+    position: absolute;
+    margin-left: 855px;
+    margin-top: -510px;
+    padding: 13px 70px;
+    font-size: 17px;
+    color: #0a141c;
+}
+
+.button7:hover{
+    color: aliceblue;
+    background-color: dodgerblue;
+    border: none;
+}
+
+.safety2{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -380px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #69567f;
+}
+
+.lockImage2{
+    position: absolute;
+    width: 2%;
+    margin-left: 857px;
+    margin-top: -385px;
+}
+
+.leftContainer5{
+    width: 100%;
+    display: flex;
+    position: absolute;
+}
+
+.button8{
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 150px;
+    padding: 3px 5px;
+    border: none;
+    font-size: 17px;
+    color: #69567f;
+}
+
+.button8:hover{
+    color: aliceblue;
+    background-color: dodgerblue;
+}
+
+.heading9{
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 240px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading10{
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 360px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tickImage{
+    position: absolute;
+    margin-left: 1060px;
+    margin-top: 353px;
+    width: 2.5%;
+}
