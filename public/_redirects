@@ -1,5 +1,7 @@
-/* /index 1.html 301
-/* /details 2.html 301
-/* /profiles 3.html 301
-/* /login 4.html 301
-/* /footer 5.html 301
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true  
+  headers = {X-From = "Netlify"}
+  signed = "API_SIGNATURE_TOKEN"
