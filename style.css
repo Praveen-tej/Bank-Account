@@ -133,6 +133,7 @@ body{
 }
 
 .button1{
+    position: absolute;
     margin-top: 640px;
     margin-left: 870px;
     padding: 12px 50px;
@@ -141,9 +142,9 @@ body{
 }
 
 .button1:hover{
-    background-color: dodgerblue;
+    background-color: rgb(39, 109, 179);
     color: aliceblue;
-    border: none;
+    border:none;
 }
 
 .homeContainer2{
@@ -197,7 +198,7 @@ body{
 .labelName1{
     position: absolute;
     margin-left: 800px;
-    margin-top: 701 px;
+    margin-top: 810 px;
     color: #69567f;
 }
 
@@ -221,7 +222,7 @@ body{
 .inputName2{
     position: absolute;
     margin-top: 840px;
-    margin-left: 700px;
+    margin-left: 800px;
     font-size: 15px;
     padding: 13px 40px;
 }
@@ -301,7 +302,7 @@ body{
 
 .frame3{
     display: flex;
-    margin-top:105px ;
+    margin-top:100px ;
 }
 
 .rightContainer3{
@@ -425,7 +426,7 @@ body{
 
 .frame4{
     display: flex;
-    margin-top: 10px;
+    
 }
 .leftContainer4{
     display: flex;
@@ -481,8 +482,8 @@ body{
 
 .verificationImage{
     position: absolute;
-    margin-left: 1100px;
-    margin-top: -626px;
+    margin-left: 990px;
+    margin-top: -612px;
 }
 
 .button7{
@@ -503,7 +504,7 @@ body{
 .safety2{
     position: absolute;
     margin-left: 900px;
-    margin-top: -380px;
+    margin-top: -395px;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #69567f;
