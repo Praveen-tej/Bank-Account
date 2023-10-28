@@ -2,8 +2,6 @@
     padding: 0;
     margin: 0;
 }
-
-
 .leftContainer{
     position: absolute;
     width: 70%;
@@ -11,6 +9,7 @@
 body{
     background-color:rgb(242, 244, 246);
 }
+
 
 .homeContainer1{
     width: 100%;
