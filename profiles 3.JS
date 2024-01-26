@@ -4,4 +4,3 @@ function nxtpage(){
 function previous(){
     window.location = "details 2.html"
 }
-
