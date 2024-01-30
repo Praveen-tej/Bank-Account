@@ -143,11 +143,11 @@ body{
     background-color: rgb(39, 109, 179);
     color: aliceblue;
     border:none;
-    box-shadow:rgb(39, 109, 179) 0px 7px 29px 0px;
+    box-shadow:rgb(39, 109, 179) 0px 10px 29px 0px;
 }
 
 .button1:active{
-    transform:translateY(10px);
+    transform:translateY(11px);
 }
 .homeContainer2{
     width: 100%;
