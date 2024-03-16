@@ -428,13 +428,13 @@ body{
 
 .frame4{
     display: flex;
-    
 }
 .leftContainer4{
     display: flex;
 }
 
-.button6{position: absolute;
+.button6{
+    position: absolute;
     margin-left: 790px;
     margin-top: -900px;
     padding: 3px 5px;
@@ -452,7 +452,7 @@ body{
     position: absolute;
     margin-left: 850px;
     margin-top: -830px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
